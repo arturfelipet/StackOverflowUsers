@@ -2,7 +2,7 @@ StackOverflowUsers
 
 
 
-Simple app to list Stack Overflow users with a simple son parser.
+Simple app to list Stack Overflow users with a simple json parser.
 
 
 
