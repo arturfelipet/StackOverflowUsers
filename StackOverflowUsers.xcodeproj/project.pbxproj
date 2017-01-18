@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EF42E8114E1CA11F1EF4AD /* libPods-StackOverflowUsers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D311FBDE9F07642FF4286C /* libPods-StackOverflowUsers.a */; };
+		DF64E1EF1E2FA4A800AABDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64E1ED1E2FA4A800AABDBD /* Main.storyboard */; };
+		DF64E1F11E2FA4A800AABDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF64E1F01E2FA4A800AABDBD /* Assets.xcassets */; };
+		DF64E1F41E2FA4A800AABDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64E1F21E2FA4A800AABDBD /* LaunchScreen.storyboard */; };
+		DF64E1FE1E2FA5A900AABDBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64E1FD1E2FA5A900AABDBD /* AppDelegate.m */; };
+		DF64E20E1E2FA62E00AABDBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64E20C1E2FA62E00AABDBD /* main.m */; };
+		DF64E2111E2FA69500AABDBD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64E2101E2FA69500AABDBD /* MainViewController.m */; };
+		DF64E2191E2FBAB700AABDBD /* ListUsersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = DF64E2181E2FBAB700AABDBD /* ListUsersCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A90AC33A520F4CB80045BB3 /* Pods-StackOverflowUsers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowUsers.release.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowUsers/Pods-StackOverflowUsers.release.xcconfig"; sourceTree = "<group>"; };
+		36D311FBDE9F07642FF4286C /* libPods-StackOverflowUsers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StackOverflowUsers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECB358D12C433831F124089 /* Pods-StackOverflowUsers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackOverflowUsers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StackOverflowUsers/Pods-StackOverflowUsers.debug.xcconfig"; sourceTree = "<group>"; };
+		DF64E1E11E2FA4A700AABDBD /* StackOverflowUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackOverflowUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF64E1EE1E2FA4A800AABDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF64E1F01E2FA4A800AABDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF64E1F31E2FA4A800AABDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF64E1FC1E2FA5A900AABDBD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF64E1FD1E2FA5A900AABDBD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF64E20B1E2FA62E00AABDBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		DF64E20C1E2FA62E00AABDBD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		DF64E20F1E2FA69500AABDBD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF64E2101E2FA69500AABDBD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF64E2171E2FBAB700AABDBD /* ListUsersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListUsersCommand.h; sourceTree = "<group>"; };
+		DF64E2181E2FBAB700AABDBD /* ListUsersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListUsersCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF64E1DE1E2FA4A700AABDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF42E8114E1CA11F1EF4AD /* libPods-StackOverflowUsers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661363556382DA2684B9405D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DECB358D12C433831F124089 /* Pods-StackOverflowUsers.debug.xcconfig */,
+				1A90AC33A520F4CB80045BB3 /* Pods-StackOverflowUsers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B71EAE86698DA45A20DDC30D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D311FBDE9F07642FF4286C /* libPods-StackOverflowUsers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF64E1D81E2FA4A700AABDBD = {
+			isa = PBXGroup;
+			children = (
+				DF64E1E31E2FA4A700AABDBD /* StackOverflowUsers */,
+				DF64E1E21E2FA4A700AABDBD /* Products */,
+				661363556382DA2684B9405D /* Pods */,
+				B71EAE86698DA45A20DDC30D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF64E1E21E2FA4A700AABDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E1E11E2FA4A700AABDBD /* StackOverflowUsers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF64E1E31E2FA4A700AABDBD /* StackOverflowUsers */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E1F01E2FA4A800AABDBD /* Assets.xcassets */,
+				DF64E1FB1E2FA5A900AABDBD /* Delegate */,
+				DF64E1FF1E2FA5B000AABDBD /* Business */,
+				DF64E2041E2FA5DE00AABDBD /* UI */,
+				DF64E1E41E2FA4A700AABDBD /* Supporting Files */,
+			);
+			path = StackOverflowUsers;
+			sourceTree = "<group>";
+		};
+		DF64E1E41E2FA4A700AABDBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E20B1E2FA62E00AABDBD /* Info.plist */,
+				DF64E20C1E2FA62E00AABDBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF64E1FB1E2FA5A900AABDBD /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E1FC1E2FA5A900AABDBD /* AppDelegate.h */,
+				DF64E1FD1E2FA5A900AABDBD /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		DF64E1FF1E2FA5B000AABDBD /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E2131E2FB9B300AABDBD /* Command */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		DF64E2041E2FA5DE00AABDBD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E2091E2FA5DE00AABDBD /* View */,
+				DF64E2051E2FA5DE00AABDBD /* Controller */,
+				DF64E2081E2FA5DE00AABDBD /* Model */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DF64E2051E2FA5DE00AABDBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E20F1E2FA69500AABDBD /* MainViewController.h */,
+				DF64E2101E2FA69500AABDBD /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF64E2081E2FA5DE00AABDBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF64E2091E2FA5DE00AABDBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E1ED1E2FA4A800AABDBD /* Main.storyboard */,
+				DF64E1F21E2FA4A800AABDBD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF64E2131E2FB9B300AABDBD /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				DF64E2171E2FBAB700AABDBD /* ListUsersCommand.h */,
+				DF64E2181E2FBAB700AABDBD /* ListUsersCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF64E1E01E2FA4A700AABDBD /* StackOverflowUsers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF64E1F81E2FA4A800AABDBD /* Build configuration list for PBXNativeTarget "StackOverflowUsers" */;
+			buildPhases = (
+				B113E1E195A24ECF23A6F2D3 /* [CP] Check Pods Manifest.lock */,
+				DF64E1DD1E2FA4A700AABDBD /* Sources */,
+				DF64E1DE1E2FA4A700AABDBD /* Frameworks */,
+				DF64E1DF1E2FA4A700AABDBD /* Resources */,
+				63A181735E96DC9ED213E904 /* [CP] Embed Pods Frameworks */,
+				8DB5B9BC2AC62DFBAC77AF42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackOverflowUsers;
+			productName = StackOverflowUsers;
+			productReference = DF64E1E11E2FA4A700AABDBD /* StackOverflowUsers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF64E1D91E2FA4A700AABDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Artur Felipe";
+				TargetAttributes = {
+					DF64E1E01E2FA4A700AABDBD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25ZQHSNJ6A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF64E1DC1E2FA4A700AABDBD /* Build configuration list for PBXProject "StackOverflowUsers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF64E1D81E2FA4A700AABDBD;
+			productRefGroup = DF64E1E21E2FA4A700AABDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF64E1E01E2FA4A700AABDBD /* StackOverflowUsers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF64E1DF1E2FA4A700AABDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF64E1F41E2FA4A800AABDBD /* LaunchScreen.storyboard in Resources */,
+				DF64E1F11E2FA4A800AABDBD /* Assets.xcassets in Resources */,
+				DF64E1EF1E2FA4A800AABDBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63A181735E96DC9ED213E904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowUsers/Pods-StackOverflowUsers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB5B9BC2AC62DFBAC77AF42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StackOverflowUsers/Pods-StackOverflowUsers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B113E1E195A24ECF23A6F2D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF64E1DD1E2FA4A700AABDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF64E20E1E2FA62E00AABDBD /* main.m in Sources */,
+				DF64E2111E2FA69500AABDBD /* MainViewController.m in Sources */,
+				DF64E2191E2FBAB700AABDBD /* ListUsersCommand.m in Sources */,
+				DF64E1FE1E2FA5A900AABDBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF64E1ED1E2FA4A800AABDBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF64E1EE1E2FA4A800AABDBD /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DF64E1F21E2FA4A800AABDBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF64E1F31E2FA4A800AABDBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF64E1F61E2FA4A800AABDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF64E1F71E2FA4A800AABDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF64E1F91E2FA4A800AABDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DECB358D12C433831F124089 /* Pods-StackOverflowUsers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZQHSNJ6A;
+				INFOPLIST_FILE = "StackOverflowUsers/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturfelipet.StackOverflowUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF64E1FA1E2FA4A800AABDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A90AC33A520F4CB80045BB3 /* Pods-StackOverflowUsers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25ZQHSNJ6A;
+				INFOPLIST_FILE = "StackOverflowUsers/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturfelipet.StackOverflowUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF64E1DC1E2FA4A700AABDBD /* Build configuration list for PBXProject "StackOverflowUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF64E1F61E2FA4A800AABDBD /* Debug */,
+				DF64E1F71E2FA4A800AABDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF64E1F81E2FA4A800AABDBD /* Build configuration list for PBXNativeTarget "StackOverflowUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF64E1F91E2FA4A800AABDBD /* Debug */,
+				DF64E1FA1E2FA4A800AABDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF64E1D91E2FA4A700AABDBD /* Project object */;
+}
