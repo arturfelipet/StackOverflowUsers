@@ -19,6 +19,8 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableViewSearchResult;
 
+@property (strong, nonatomic) UIActivityIndicatorView *activityindicator;
+
 @end
 
 @implementation MainViewController
@@ -39,8 +41,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)showActivityIndicator{
+    _activityindicator = [[UIActivityIndicatorView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [_activityindicator setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    [_activityindicator setColor:[UIColor blackColor]];
+    [self.view addSubview:_activityindicator];
+    [_activityindicator startAnimating];
+}
+
+- (void)hideActivityIndicator{
+    [_activityindicator stopAnimating];
+}
+
 - (void)loadServerData{
+    [self showActivityIndicator];
+    
     [[ListUsersCommand sharedInstance] listUsersWithBlock:^(NSDictionary *result, NSError *error) {
+        [self hideActivityIndicator];
         if (error) {
             NSLog(@"error: %@", error.localizedDescription);
         } else {
